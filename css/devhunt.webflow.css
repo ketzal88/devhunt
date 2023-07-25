@@ -2955,6 +2955,12 @@ figcaption {
   margin-left: 24px;
 }
 
+.btn-primary.small.header-btn-hidde-on-mb:hover {
+  color: #0b6740;
+  -webkit-text-stroke-color: #fff;
+  background-color: #fff;
+}
+
 .btn-primary.small.discount {
   height: auto;
   margin-left: 0;
