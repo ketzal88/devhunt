@@ -1396,6 +1396,10 @@ figcaption {
   transform: scale3d(1.02, 1.02, 1.01);
 }
 
+.card.card-link-icon-top.bg-secondary-1 {
+  background-color: #def2e6;
+}
+
 .card.card-link-icon-top.v2 {
   padding: 52px 40px;
 }
@@ -1411,7 +1415,7 @@ figcaption {
   background-color: #f4f0ed;
   justify-content: space-between;
   padding: 56px 64px 72px;
-  display: flex;
+  display: none;
   position: absolute;
   bottom: 52px;
   left: -24px;
@@ -3060,6 +3064,10 @@ figcaption {
   transform: none;
 }
 
+.btn-primary.fontsize {
+  font-size: 14px;
+}
+
 .btn-secondary {
   color: #45494b;
   text-align: center;
@@ -3106,6 +3114,7 @@ figcaption {
 .btn-secondary.neutral-600 {
   color: #696e72;
   border-color: #696e72;
+  display: none;
 }
 
 .btn-secondary.neutral-600:hover {
@@ -3117,6 +3126,20 @@ figcaption {
   margin-left: 12px;
   margin-right: 12px;
   font-size: 18px;
+}
+
+.btn-secondary.space {
+  margin-top: 30px;
+}
+
+.btn-secondary.space.w--current {
+  margin-top: 150px;
+}
+
+.btn-secondary.space.fontsize {
+  width: 100%;
+  margin-top: 0;
+  font-size: 14px;
 }
 
 .badge-primary {
@@ -3835,6 +3858,10 @@ figcaption {
 
 .buttons-row.center {
   justify-content: center;
+}
+
+.buttons-row.withbuttons {
+  width: 400px;
 }
 
 .style---dropdown-list-sidebar {
@@ -4673,7 +4700,7 @@ figcaption {
   z-index: 2;
   background-color: #f9f0e9;
   margin-bottom: -200px;
-  padding: 134px 40px;
+  padding: 100px 40px;
 }
 
 .cta-card.v3 {
@@ -6252,6 +6279,34 @@ figcaption {
 
 .hidden {
   display: none;
+}
+
+.form-block {
+  width: 100%;
+}
+
+.text-field {
+  border: 0 solid #000;
+  border-radius: 8px;
+}
+
+.text-field.spacing {
+  height: 45px;
+  margin-bottom: 50px;
+}
+
+.text-field-2, .text-field-3 {
+  height: 45px;
+  border: 0 solid #000;
+  border-radius: 8px;
+}
+
+.div-block {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
